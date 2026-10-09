@@ -14,11 +14,11 @@ After placing the schematic (signs in the build point to each spot):
 1. **Set all 54 threshold switches** (3 per vault). Placing a schematic resets them. The signs on the back mark
    the **A**, **B** and **C** columns. Every switch: count in **stacks**, empty filter, **Invert on**, then:
 
-   | Switch | Speed | Top | Bottom |
-   | --- | --- | --- | --- |
-   | A | Fast | 1,432 | 1,431 |
-   | C | Medium | 1,567 | 1,566 |
-   | B | Slow | 1,612 | 1,611 |
+   | Switch | Speed | Top | Bottom | Only if you always run at 256 RPM |
+   | --- | --- | --- | --- | --- |
+   | A | Fast | 1,432 | 1,431 | top 1,558, bottom 1,557 |
+   | C | Medium | 1,567 | 1,566 | top 1,585, bottom 1,584* |
+   | B | Slow | 1,612 | 1,611 | same |
 
    These are safe at any RPM. If you always run at exactly 256 RPM, see the full docs for tighter settings.
 2. **Drop one item on the belt clock** at the top (the small 8-block belt loop). One item only.
