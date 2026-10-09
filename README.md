@@ -17,7 +17,7 @@ After placing the schematic (signs in the build point to each spot):
    | Switch | Speed | Top | Bottom | Only if you always run at 256 RPM |
    | --- | --- | --- | --- | --- |
    | A | Fast | 1,432 | 1,431 | top 1,558, bottom 1,557 |
-   | C | Medium | 1,567 | 1,566 | top 1,585, bottom 1,584* |
+   | C | Medium | 1,567 | 1,566 | top 1,585, bottom 1,584 |
    | B | Slow | 1,612 | 1,611 | same |
 
    These are safe at any RPM. If you always run at exactly 256 RPM, see the full docs for tighter settings.
