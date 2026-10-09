@@ -32,6 +32,12 @@ The redstone and link frequencies survive the schematic; only the threshold swit
 quickly; medium: one, every 4th lap; slow: one, every 16th lap). The storage full light at the front comes on
 when no vault can take another package; new items then wait in the buffer, where you can still request them.
 
+## Limitations and safeguards
+
+Because this system operates entirely through packages, it cannot make use of leftover space that is insufficient for a complete package. Each package contains 9 stacks, meaning that the final 9 stacks of available space in a vault may not always be filled completely. In some cases, this can leave a small amount of unused capacity that the system will not automatically fill, simply because the remaining space cannot accommodate another full package. However, given the sheer storage capacity of the 18 max-size vaults, this is a negligible trade-off in practice.
+
+The loopback path that returns packages to the buffer serves as an additional failsafe rather than a normal part of the system's operation. During testing, with the threshold switches configured correctly, the system did not send packages that could not fit into the main vaults, making the loopback rarely, if ever, necessary. It is retained as a safeguard against packages reaching the distribution system when the intended storage cannot accommodate them.
+
 ## Full documentation
 
 [docs/storage_system.md](docs/storage_system.md) explains how it works, why there are three speeds, why the
