@@ -6,7 +6,7 @@ are, and starts again by itself as soon as you take something out. No packages s
 and the buffer's items stay reachable through the stock network the whole time.
 
 **Download:** [`schematics/create_self_locking_storage.nbt`](schematics/create_self_locking_storage.nbt), or on
-[createmod.com](https://createmod.com/u/2ab947cd61936e5b757f7d2d24f74991).
+[createmod.com](https://createmod.com/schematics/self-locking-package-storage-18-vaults).
 
 ## Quick start
 
