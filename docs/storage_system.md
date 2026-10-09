@@ -10,7 +10,7 @@ and the buffer's items stay reachable through the stock network the whole time.
 ## Quick start (the schematic)
 
 **Download:** the schematic is [`schematics/create_self_locking_storage.nbt`](../schematics/create_self_locking_storage.nbt) in this repository, and on
-[createmod.com](https://createmod.com/u/2ab947cd61936e5b757f7d2d24f74991).
+[createmod.com](https://createmod.com/schematics/self-locking-package-storage-18-vaults).
 
 **After placing the schematic, do these before using it.** Signs in the build point to each spot.
 1. **Set every threshold switch.** Placing a schematic resets them, and with reset switches the system sends
